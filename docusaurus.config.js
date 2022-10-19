@@ -142,7 +142,7 @@ const config = {
           //   ],
           // },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Chen's Project, Inc.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Radxa Team`,
       },
       prism: {
         theme: lightCodeTheme,
