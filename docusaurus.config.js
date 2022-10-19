@@ -9,13 +9,15 @@ const duotoneLight = require('prism-react-renderer/themes/duotoneLight')
 const config = {
   title: 'radxa-docs',
   tagline: 'radxa-docs',
-  url: 'https://radxa-docs',
+  url: 'https://radxa-docs.github.io',
   baseUrl: '/',
+  projectName: "radxa-docs.github.io",
+  organizationName: 'radxa-docs',
+  deploymentBranch: "gh-pages",
+  trailingSlash: false,
   onBrokenLinks: 'log',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo.svg',
-  organizationName: 'radxa-docs', // Usually your GitHub org/user name.
-  projectName: "radxa-docs", // Usually your repo name.
   i18n: {
     defaultLocale: 'zh-cn',
     locales: ['zh-cn'],
