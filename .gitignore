@@ -3,3 +3,5 @@ node_modules
 # ignore idea ide file
 **/.idea
 **/*.iml
+# ignore docusaurus local build files
+.docusaurus
