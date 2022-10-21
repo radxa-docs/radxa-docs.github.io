@@ -1,0 +1,5 @@
+# ignore node module dir
+node_modules
+# ignore idea ide file
+**/.idea
+**/*.iml
