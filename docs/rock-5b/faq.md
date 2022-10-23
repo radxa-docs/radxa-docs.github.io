@@ -22,6 +22,7 @@ tags:
 - [能不能用扩展坞](#%E8%83%BD%E4%B8%8D%E8%83%BD%E7%94%A8%E6%89%A9%E5%B1%95%E5%9D%9E)
 - [能不能用sata](#%E8%83%BD%E4%B8%8D%E8%83%BD%E7%94%A8sata)
 - [要不要买emmc](#%E8%A6%81%E4%B8%8D%E8%A6%81%E4%B9%B0emmc)
+- [在linux下运行geekbench5跑分](#%E5%9C%A8linux%E4%B8%8B%E8%BF%90%E8%A1%8Cgeekbench5%E8%B7%91%E5%88%86)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -40,19 +41,20 @@ tags:
 ### GPU驱动能不能用
 
 linux下只有opengl-es，等于不能用  
-Android下可以用  
+Android下可以用
 
 ### 体质怎么测试
 
 执行以下指令，看 pvtm=？   
-值越高体制越好  
+值越高体质越好
+
 ```bash
 dmesg | grep pvtm
 ```
 
 ### pd重启怎么办
 
-暂时无解，官方正在改软件，一个将就的办法就是不用pd直接固定电压供电  
+暂时无解，官方正在改软件，一个将就的办法就是不用pd直接固定电压供电
 
 ### 能不能用扩展坞
 
@@ -66,4 +68,37 @@ dmesg | grep pvtm
 
 看个人需求，如果受不了tf卡的速度可以考虑  
 linux可以直接使用nvme启动
+
+### 在linux下运行geekbench5跑分
+
+注意：目前geekbench5 for arm64处于preview状态  
+在linux的root命令行中运行以下指令
+
+```bash
+mkdir -p ~/software/geekbench5 && cd ~/software/geekbench5 
+wget https://cdn.geekbench.com/Geekbench-5.4.0-LinuxARMPreview.tar.gz
+tar xf Geekbench-5.4.0-LinuxARMPreview.tar.gz
+cd Geekbench-5.4.0-LinuxARMPreview
+./geekbench_aarch64
+```
+
+执行完成后会有以下输出：
+
+```text
+Uploading results to the Geekbench Browser. This could take a minute or two
+depending on the speed of your internet connection.
+
+Upload succeeded. Visit the following link and view your results online:
+
+  https://browser.geekbench.com/v5/cpu/18158036
+
+Visit the following link and add this result to your profile:
+
+  https://browser.geekbench.com/v5/cpu/18158036/claim?key=545201
+```
+
+其中 *https://browser.geekbench.com/v5/cpu/18158036* 这样的链接就是跑分结果页面  
+
+
+
 
