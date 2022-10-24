@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[121],{8070:e=>{e.exports=JSON.parse('[{"label":"rock-5b","permalink":"/tags/rock-5-b","count":1},{"label":"faq","permalink":"/tags/faq","count":1}]')}}]);

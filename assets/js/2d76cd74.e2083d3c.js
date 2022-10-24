@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[708],{2550:e=>{e.exports=JSON.parse('{"label":"rock-5b","permalink":"/tags/rock-5-b","allTagsPath":"/tags","count":1,"items":[{"id":"rock-5b/rock-5b-faq","title":"rock 5b faq","description":"rock 5b faq","permalink":"/rock-5b/rock-5b-faq"}]}')}}]);
