@@ -23,6 +23,7 @@ tags:
 - [能不能用sata](#%E8%83%BD%E4%B8%8D%E8%83%BD%E7%94%A8sata)
 - [要不要买emmc](#%E8%A6%81%E4%B8%8D%E8%A6%81%E4%B9%B0emmc)
 - [在linux下运行geekbench5跑分](#%E5%9C%A8linux%E4%B8%8B%E8%BF%90%E8%A1%8Cgeekbench5%E8%B7%91%E5%88%86)
+- [SOC是否需要外加散热措施](#soc%E6%98%AF%E5%90%A6%E9%9C%80%E8%A6%81%E5%A4%96%E5%8A%A0%E6%95%A3%E7%83%AD%E6%8E%AA%E6%96%BD)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -97,8 +98,10 @@ Visit the following link and add this result to your profile:
   https://browser.geekbench.com/v5/cpu/18158036/claim?key=545201
 ```
 
-其中 *https://browser.geekbench.com/v5/cpu/18158036* 这样的链接就是跑分结果页面  
+其中 *https://browser.geekbench.com/v5/cpu/18158036* 这样的链接就是跑分结果页面
 
+### SOC是否需要外加散热措施
 
+需要外加散热措施，否则将在较长时间（依赖于气温，气温20度左右大概2-3分钟）的高负载的时候会触发温度墙导致降频  
 
 
