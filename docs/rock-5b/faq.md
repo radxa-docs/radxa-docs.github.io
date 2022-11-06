@@ -54,12 +54,23 @@ Android下可以用
 
 ### 体质怎么测试
 
-执行以下指令，看 pvtm=？   
+linux命令行执行以下指令   
 值越高体质越好
 
 ```bash
-dmesg | grep pvtm
+dmesg | grep -E 'pvtm|dmc' | grep sel
 ```
+
+数值说明：
+
+|                 参数                 |   说明    |
+|:----------------------------------:|:-------:|
+|      cpu cpu0: pvtm-volt-sel       |  小核簇体质  |
+|      cpu cpu4: pvtm-volt-sel       | 大核心簇1体质 |
+|      cpu cpu6: pvtm-volt-sel       | 大核心簇2体质 |
+|  mali fb000000.gpu: pvtm-volt-sel  |  GPU体质  |
+| rockchip-dmc dmc: leakage-volt-sel | 内存控制器体质 |
+| RKNPU fdab0000.npu: pvtm-volt-sel  |  NUP体质  |
 
 ### pd重启怎么办
 
@@ -76,7 +87,8 @@ dmesg | grep pvtm
 ### 要不要买emmc
 
 看个人需求，如果受不了tf卡的速度可以考虑  
-linux可以直接使用nvme启动
+linux可以直接使用nvme启动  
+Android目前发布了第一版可以nvme启动的固件
 
 ### 在linux下运行geekbench5跑分
 
