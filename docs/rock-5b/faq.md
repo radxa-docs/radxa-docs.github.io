@@ -25,6 +25,8 @@ tags:
 - [在linux下运行geekbench5跑分](#%E5%9C%A8linux%E4%B8%8B%E8%BF%90%E8%A1%8Cgeekbench5%E8%B7%91%E5%88%86)
 - [SOC是否需要外加散热措施](#soc%E6%98%AF%E5%90%A6%E9%9C%80%E8%A6%81%E5%A4%96%E5%8A%A0%E6%95%A3%E7%83%AD%E6%8E%AA%E6%96%BD)
 - [linux下查看温度和pd协商功率](#linux%E4%B8%8B%E6%9F%A5%E7%9C%8B%E6%B8%A9%E5%BA%A6%E5%92%8Cpd%E5%8D%8F%E5%95%86%E5%8A%9F%E7%8E%87)
+- [如何使用HDMI IN录像](#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hdmi-in%E5%BD%95%E5%83%8F)
+
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ### root密码是多少
