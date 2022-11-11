@@ -1,53 +1,53 @@
 # radxa-docs
 
-本文档平台基于 [Docusaurus 2](https://v2.docusaurus.io/)构建的文档平台，关于 Docusaurus 的使用方法请参考官方网站 [Docusaurus 2](https://v2.docusaurus.io/)。
+Radxa Docs is built on [Docusaurus 2](https://v2.docusaurus.io/). To learn more about how to use and install Docusaurus, please visit the [Docusaurus 2](https://v2.docusaurus.io/) official documentation.
 
-## 使用方法
+## How to contribute
 
-首先克隆仓库代码：
+Clone the code:
 
 ```bash
-# $ git clone http://192.168.2.13/W/radxa-docs.git
-  git clone https://github.com/Keoy823/radxa-docs.git
+
+git clone https://github.com/radxa-docs/radxa-docs.github.io.git
 
 ```
 
-安装依赖：
+Install the dependecy:
 
 ```bash
 $ yarn install
-# 或使用 npm install，下同
+# Or use npm install
 ```
 
-启动项目：
+Run the code:
 
 ```bash
 $ yarn start
 ```
 
-构建项目：
+Build:
 
 ```bash
-# 同时构建中文和英文版 
+# Build all language versions: 
 $ yarn build
 ```
 
-## 目录介绍
+## Structure
 
-下面是主要目录的介绍：
+Directory structure:
 
 ```bash
 ├── docs                          
-│   └── doc1.md                    # 文档          
+│   └── doc1.md                    # the Documentation          
 ├── docusaurus.config.js
 ├── package.json
 ├── sidebars.js                    
 ├── src
-│   ├── components                 # 自定义组件
-│   ├── css                        # 自定义 CSS
-│   ├── pages                      # 自定义页面
+│   ├── components                 # custom components
+│   ├── css                        # custom CSS
+│   ├── pages                      # custom pages
 ├── static
-│   ├── icons                      # 公用图标
+│   ├── icons                      # shared icons
 │   ├── img 
 └── yarn.lock                      
 ```
