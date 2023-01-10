@@ -73,7 +73,7 @@ dmesg | grep -E 'pvtm|dmc' | grep sel
 |      cpu cpu6: pvtm-volt-sel       | 大核心簇2体质 |
 |  mali fb000000.gpu: pvtm-volt-sel  |  GPU体质  |
 | rockchip-dmc dmc: leakage-volt-sel | 内存控制器体质 |
-| RKNPU fdab0000.npu: pvtm-volt-sel  |  NUP体质  |
+| RKNPU fdab0000.npu: pvtm-volt-sel  |  NPU体质  |
 
 ### pd重启怎么办
 
